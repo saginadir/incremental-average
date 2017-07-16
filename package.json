@@ -3,9 +3,23 @@
   "version": "1.1.0",
   "main": "index.js",
   "license": "MIT",
-  "keywords": ["math", "average"],
-  "repository" : {
-    "type" : "git",
-    "url" : "https://github.com/saginadir/incremental-average.git"
+  "keywords": [
+    "math",
+    "average"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/saginadir/incremental-average.git"
+  },
+  "scripts": {
+    "test": "mocha -r ts-node/register tests.ts"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.0.1",
+    "@types/mocha": "^2.2.41",
+    "chai": "^4.1.0",
+    "mocha": "^3.4.2",
+    "ts-node": "^3.2.0",
+    "typings": "^2.1.1"
   }
 }
