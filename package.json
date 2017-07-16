@@ -12,14 +12,15 @@
     "url": "https://github.com/saginadir/incremental-average.git"
   },
   "scripts": {
-    "test": "mocha -r ts-node/register tests.ts"
+    "test": "mocha -r ts-node/register tests.ts",
+    "dev": "tsc -w",
+    "build": "tsc"
   },
   "devDependencies": {
     "@types/chai": "^4.0.1",
     "@types/mocha": "^2.2.41",
     "chai": "^4.1.0",
     "mocha": "^3.4.2",
-    "ts-node": "^3.2.0",
-    "typings": "^2.1.1"
+    "typescript": "^2.4.1"
   }
 }

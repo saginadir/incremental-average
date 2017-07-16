@@ -1,7 +1,6 @@
 import incrementalAverage from './index'
 import { expect } from 'chai';
-// if you used the '@types/mocha' method to install mocha type definitions, uncomment the following line
-// import 'mocha';
+import 'mocha';
 
 describe('Basic Average Tests', () => {
     it('should return 3 when adding numbers using add()', () => {
